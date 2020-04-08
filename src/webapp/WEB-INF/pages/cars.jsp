@@ -5,14 +5,15 @@
   Time: 23:54
   To change this template use File | Settings | File Templates.
 --%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %><html>
 <head>
 
 </head>
 <body>
 <title>Title</title>
-<h1>Cars:</h1>
-
+<h1>"${locale}":</h1>
 <table >
     <tr>
         <th width="80">Id</th>
